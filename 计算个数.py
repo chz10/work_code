@@ -18,7 +18,7 @@ def count_txt_files(root_path):
     return count
 
 
-root_directory = r"\\hz-iotfs02\Model_Test\TestSpace\Personal_Space\CHZ\Southlake\adas_perception_v3.1_SPC030_2m_50\output_test\gaoziyi\V3.1_2M_3.1.27223.1350_MSIND"
+root_directory = r"\\hz-iotfs02\Model_Test\TestSpace\Personal_Space\CHZ\Southlake\adas_perception_v3.1_SPC030_2m_vpt\output\gaoziyi\20260105_V3.1_2M_3.1.27223.1413_ASCC36_IHBC35"
 result = count_txt_files(root_directory)
 print(f"\n最终统计结果：扩展名为 '.txt' 的文件数量为：{result}")
 

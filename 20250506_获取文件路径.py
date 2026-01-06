@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-# -*- coding:utf-8 -*-
 import os
 
 def get_files_list(path, txt_all, keywords):
@@ -14,8 +12,8 @@ def get_files_list(path, txt_all, keywords):
 
 
 if __name__ == '__main__':
-    src_video_path = r'\\Material\xuekangkang\download\1068785'
-    txt_file = r"C:\Users\chz62985\Desktop\新建 文本文档 (3).txt"
+    src_video_path = r'\\hz-iotfs02\Model_Test\TestSpace\Personal_Space\GZY\IHBC'
+    txt_file = r"C:\Users\chz62985\Desktop\gaoziyi\test_gzy.txt"
 
     result_pd = open('F:222.txt', 'w+', encoding='utf-8')
 

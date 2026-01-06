@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-# -*- coding:utf-8 -*-
+
 import os
 from collections import defaultdict
 
@@ -66,10 +65,9 @@ def write_dedup_result(file_map, out_fp):
 
 
 def main():
-    output_txt = r"F:\Desktop\fulltest_QA_lixiang2.txt"
+    output_txt = r"C:\Users\chz62985\Desktop\xkk_wuling5577.txt"
 
-    src_video_path = r"\\hz-iotfs02\Model_Test\TestSpace\Personal_Space\ZYF1\SouthLake\adas_perception_v3.1_SPC030_2m\input\fulltest\20251126\DTC_lixiang3"
-
+    src_video_path = r"\\hz-iotfs02\Model_Test\TestSpace\Personal_Space\XKK\FT\0106"
     file_map = collect_video_files(src_video_path)
 
     with open(output_txt, "w", encoding="utf-8") as fp:
