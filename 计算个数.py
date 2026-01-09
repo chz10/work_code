@@ -9,7 +9,7 @@ def count_txt_files(root_path):
         print(f"\n正在扫描目录: {dirpath}")
         
         for filename in filenames:
-            print(f"    文件: {filename}")
+            # print(f"    文件: {filename}")
             if filename.endswith(".txt"):  # 查找 txt 文件
                 count += 1
                 print(f"     匹配到以 '.txt' 结尾的文件: {filename}")
@@ -18,7 +18,7 @@ def count_txt_files(root_path):
     return count
 
 
-root_directory = r"\\hz-iotfs02\Model_Test\TestSpace\Personal_Space\CHZ\Southlake\adas_perception_v3.1_SPC030_2m_vpt\output\gaoziyi\20260105_V3.1_2M_3.1.27223.1413_ASCC36_IHBC35"
+root_directory = r"\\hz-iotfs02\Model_Test\TestSpace\Personal_Space\CHZ\Southlake\adas_perception_v3.1_SPC030_2m_60\output_test\fangyeqing\20260105_V3.1_2M_3.1.27223.1376\lixiang3"
 result = count_txt_files(root_directory)
 print(f"\n最终统计结果：扩展名为 '.txt' 的文件数量为：{result}")
 

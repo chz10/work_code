@@ -26,9 +26,9 @@ def filter_paths_by_timestamp(path_txt, ts_txt, output_txt):
     print(f"🎯 匹配到路径数量: {matched}")
     print(f"📄 结果已保存到: {output_txt}")
 if __name__ == "__main__":
-    path_txt = r"C:\Users\chz62985\Desktop\素管素材.txt"
-    ts_txt = r"C:\Users\chz62985\Desktop\shaoyuqi\kongbai.txt"
-    output_txt = r"C:\Users\chz62985\Desktop\shaoyuqi\syq_kongbai.txt"
+    path_txt = r"C:\Users\chz62985\Desktop\gzy素材.txt"
+    ts_txt = r"C:\Users\chz62985\Desktop\test_gl8.txt"
+    output_txt = r"C:\Users\chz62985\Desktop\test_gl8.txt"
 
     filter_paths_by_timestamp(path_txt, ts_txt, output_txt)
 

@@ -91,8 +91,8 @@ def read_txt_list(txt_path):
 
 if __name__ == "__main__":
 
-    txt_path = r"C:\Users\chz62985\Desktop\FT.txt"
-    output_dir = r"\\hz-iotfs02\Model_Test\TestSpace\Personal_Space\CHZ\Southlake\adas_perception_v3.1_SPC030_2m_70\input\liuyang\20251223"
+    txt_path = r"C:\Users\chz62985\Desktop\新建 文本文档 (3).txt"
+    output_dir = r"\\hz-iotfs02\Model_Test\TestSpace\Personal_Space\CHZ\Southlake\adas_perception_v3.1_SPC030_2m_80\input\lishun\20260108"
     h264_list = read_txt_list(txt_path)
     for h264_path in h264_list:
         if "xin" in h264_path:

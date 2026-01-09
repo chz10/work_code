@@ -1,0 +1,22 @@
+{
+    "result": false,
+    "is_checked": true,
+    "rate": 0.0,
+    "other": {
+        "clip_name": "VisInsight_20250827210335-684100_684108-漏检",
+        "checker_type": "漏检",
+        "total_frame": 1,
+        "start_end_frame": [
+            9929,
+            9937
+        ],
+        "pass_rate": 0.0,
+        "pass_id": [],
+        "pass_frame": [],
+        "fail_rate": 1.0,
+        "fail_id": [],
+        "fail_frame": [
+            9937
+        ]
+    }
+}
