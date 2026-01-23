@@ -68,6 +68,7 @@ def main():
     output_txt = r"C:\Users\chz62985\Desktop\gzy素材.txt"
 
     src_video_path = r"\\hz-iotfs02\Model_Test\TestSpace\Personal_Space\GZY"
+
     file_map = collect_video_files(src_video_path)
 
     with open(output_txt, "w", encoding="utf-8") as fp:

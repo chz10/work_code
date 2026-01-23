@@ -188,14 +188,14 @@ class FrameworkCurveComparator:
 
 
 if __name__ == "__main__":
-    video_path = r"\\hz-iotfs02\Model_Test\TestSpace\Personal_Space\CHZ\Southlake\adas_perception_v3.1_SPC030_2m_80\input\lishun\20260108\lynkco"
-    recharge_path = r"\\hz-iotfs02\Model_Test\TestSpace\Personal_Space\CHZ\Southlake\adas_perception_v3.1_SPC030_2m_80\output_test\lishun\20260108_V3.1_2M_3.1.27223.1426"
+    video_path = r"\\hz-iotfs02\Model_Test\TestSpace\Personal_Space\ZYF\SouthLake\adas_perception_v3.1_SPC030_2m\input\majianzhou\20260113"
+    recharge_path = r"\\hz-iotfs02\Model_Test\TestSpace\Personal_Space\CHZ\Southlake\adas_perception_v3.1_SPC030_2m_98\output\majianzhou\20260113_V3.1_2M_3.1.27223.1451\lynkco\output"
 
     analyzer = FrameworkCurveComparator(
         video_path,
         recharge_path,
         version_old="实车",
-        version_new="VMP100"
+        version_new="V3.1.27223.1451"
     )
 
     while True:
