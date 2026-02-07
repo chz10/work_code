@@ -57,6 +57,11 @@ CAR_KEYWORDS = {
     "geely_2239": "geely_2239",
     "Geely_2506": "geely_2506",
     "geely_2506": "geely_2506",
+    "Geely_0452": "geely_0452",
+    "ss21_0452" : "geely_0452",
+    "geely_0452": "geely_0452",
+    "Wuling_0240": "wuling_0240",
+    "wuling_0240":"wuling_0240" ,  
 
     "gl8": "GL8",
     "GL8": "gl8",
@@ -135,7 +140,7 @@ def main():
 
     # 每个车型一个 txt
     for car, paths in sorted(car_map.items()):
-        with open(os.path.join(out_dir, f"xkk_{car}.txt"), "w", encoding="utf-8") as f:
+        with open(os.path.join(out_dir, f"{car}.txt"), "w", encoding="utf-8") as f:
             for p in paths:
                 f.write(p + "\n")
 

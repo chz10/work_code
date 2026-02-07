@@ -59,8 +59,8 @@ def copy_files_with_progress(file_list, output_dir, use_subfolder=False):
 
 if __name__ == "__main__":
 
-    txt_path = r"C:\Users\chz62985\Desktop\新建 文本文档 (2).txt"
-    output_dir = r"\\hz-iotfs02\Model_Test\TestSpace\Personal_Space\CHZ\Southlake\adas_perception_v3.1_SPC030_2m_80\input\fangyeqing\20260113"
+    txt_path = r"C:\Users\chz62985\Desktop\eh7.txt"
+    output_dir = r"\\hz-iotfs02\Model_Test\TestSpace\Personal_Space\GJH\Southlake\input\20260129\EH7"
 
     
     # === 新增：是否创建同名文件夹 ===

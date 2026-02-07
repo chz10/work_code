@@ -5,22 +5,19 @@ from datetime import datetime
 # ================== 配置区 ==================
 
 # 输入 txt（存放所有路径）
-INPUT_TXT = r"C:\Users\chz62985\Desktop\dwz\AEB\AEB_lixiang2.txt"
-
-# 输出目录
-OUTPUT_DIR = r"C:\Users\chz62985\Desktop\dwz\AEB"
-
+INPUT_TXT = r"C:\Users\chz62985\Desktop\dwz\0205\dwz_lixiang2.txt"
+OUTPUT_DIR = r"C:\Users\chz62985\Desktop\dwz\0205"
 # 三个时间区间
 RANGES = {
-    "AEB_lixiang2_20250824": (
+    "dwz_lixiang2_20250824": (
         datetime(2025, 8, 24),
         datetime(2025, 9, 22)
     ),
-    "AEB_lixiang2_20250923": (
+    "dwz_lixiang2_20250923": (
         datetime(2025, 9, 23),
         datetime(2025, 10, 9)
     ),
-    "AEB_lixiang2_20251010": (
+    "dwz_lixiang2_20261010": (
         datetime(2025, 10, 10),
         datetime(2026, 1, 1)
     )

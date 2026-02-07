@@ -59,7 +59,7 @@ def copy_files_from_txt(txt_path, output_root):
 
 
 if __name__ == "__main__":
-    input_txt = r"C:\Users\chz62985\Desktop\liuyang\FT.txt"
-    output_dir = r"\\hz-iotfs02\Model_Test\TestSpace\Personal_Space\CHZ\Southlake\adas_perception_v3.1_SPC030_2m_70\input\liuyang\20251223"
+    input_txt = r"C:\Users\chz62985\Desktop\wuling.txt"
+    output_dir = r"\\hz-iotfs02\Model_Test\TestSpace\Personal_Space\CHZ\Southlake\adas_perception_v3.1_SPC030_2m_98\input\fangyeqing\wuling"
 
     copy_files_from_txt(input_txt, output_dir)

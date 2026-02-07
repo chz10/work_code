@@ -111,9 +111,9 @@ def check_and_complete_paths(input_txt, output_txt, fail_txt):
 
 
 if __name__ == "__main__":
-    input_txt = r"C:\Users\chz62985\Desktop\新建 文本文档.txt"
-    output_txt = r"C:\Users\chz62985\Desktop\新建 文本文档1.txt"
-    fail_txt = r"C:\Users\chz62985\Desktop\新建 文本文档2.txt"
+    input_txt = r"C:\Users\chz62985\Desktop\dtc\dtc.txt"
+    output_txt = r"C:\Users\chz62985\Desktop\dtc\gzy.txt"
+    fail_txt = r"C:\Users\chz62985\Desktop\error.txt"
 
     check_and_complete_paths(input_txt, output_txt, fail_txt)
     # check_and_complete_paths(input_txt, output_txt)

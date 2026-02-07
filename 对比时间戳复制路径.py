@@ -50,9 +50,9 @@ def filter_paths_by_timestamp(path_txt, ts_txt, output_txt):
 
 if __name__ == "__main__":
     path_txt = r"C:\Users\chz62985\Desktop\素管素材.txt"
-    ts_txt = r"C:\Users\chz62985\Desktop\gzy.txt"
+    ts_txt = r"C:\Users\chz62985\Desktop\新建 文本文档 (2).txt"
 
     # ⚠️ 建议不要和 ts_txt 同名，避免覆盖
-    output_txt = r"C:\Users\chz62985\Desktop\gzy.txt"
+    output_txt = r"C:\Users\chz62985\Desktop\dwz_lixiang2.txt"
 
     filter_paths_by_timestamp(path_txt, ts_txt, output_txt)
